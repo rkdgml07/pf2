@@ -1,0 +1,257 @@
+@media screen and (max-width:768px) {
+  body {
+   max-width:768px;
+   margin: 0 auto;
+  }
+  header div.wrap ul {
+    
+  }
+  header div.wrap ul li a {
+   display: none;
+  }
+  div#title {
+    background-position: bottom;
+    background-size: initial;
+    background-position: 52% 80%;
+    background-size: cover;
+    background-size: 1506px 433px;
+    background-image: url(../img/titleimg.png);
+    background-repeat: no-repeat;
+    background-color: #ffa15d;
+    width: calc(100% - 50px);
+  }
+  div#title div.wrap h2 {
+    padding: 0 20px;
+    font-size: 40px;
+  }
+  div#title div.wrap p {
+    padding: 0 20px;
+  }
+  div#title div.wrap a {
+    margin: 0 20px;
+  }
+  section#product div.wrap ul li a figure {
+    flex-direction: column;
+  }
+  section#product div.wrap ul li a figure figcaption p {
+    display: none;
+  }
+  section#product div.wrap ul li a figure figcaption h3 {
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.4;
+    white-space: pre-line;
+  }
+  section#product div.wrap ul li a figure img {
+    width: 40px;
+    height: 40px;
+  }
+  section#product div.wrap ul li a figure figcaption h3::after {
+    display: none;
+  }
+/*  product  */
+  main {
+    
+  width: calc(100% - 50px);
+  padding: 0;
+  margin: 0 auto;
+  }
+  section#product {
+    
+  }
+/*  service  */
+  section#service div {
+    height: 400px;
+  }
+  section#service div p {
+    font-size: 22px;
+  }
+  section#service div a {
+    width: 220px;
+    height: 66px;
+  } 
+/*  licence  */
+  section#licence div.wrap {
+    height: 400px;
+  }
+  section#licence div.wrap p {
+    font-size: 22px;
+  }
+/*  altools  */
+  section#altools div.wrap ul li{
+    width: calc((100% - 20px) / 2);
+  }
+/* promotion */
+  section#promotion div.wrap {
+    
+  padding: 0;
+  }
+  section#promotion {
+  background-size: 260% !important;
+  height: 252px;
+  }
+/*  tip  */
+  section#tip {
+    
+  }
+  section#tip div.wrap {
+    
+  display: flex;
+  flex-direction: column;
+  }
+  section#tip div.wrap h4 {
+    
+  }
+  section#tip div.wrap ul.no {
+    
+  }
+  section#tip div.wrap ul.no li {
+    
+  }
+  section#tip div.wrap ul.no li a {
+  width: 720px !important;
+  height: 360px;
+  background-position: bottom;
+  }
+  section#tip div.wrap ul.no li a h3 {
+    margin-bottom: 30px;
+  }
+  section#tip div.wrap ul.pdf li a {
+    width: 720px !important;
+    height: 220px;
+  }
+  section#tip div.wrap ul.cap li a {
+    width: 720px !important;
+    height: 220px;
+  }
+  section#tip div.wrap ul.zip li a {
+    width: 720px !important;
+    height: 220px;
+  }
+  section#tip div.wrap ul.self li a {
+    width: 720px !important;
+    height: 220px;
+  }
+  section#tip div.wrap ul li a p {
+    font-size: 15px;
+  }
+/*  news  */
+  section#news {
+    
+  height: 540px;
+  /*! margin: 0 auto; */
+  background-position: 42%;
+  background-size: 216% 107%;
+  }
+  section#news div.wrap {
+    
+  }
+  section#news div.wrap ul {
+    
+  flex-direction: column;
+  align-items: center;
+  }
+  section#news div.wrap ul li {
+    
+  width: 712px;
+  height: 100px;
+  border-radius: 15px;
+  display: flex;
+  }
+  section#news div.wrap ul li a.block {
+    
+  }
+/*  footer  */
+  footer div.wrap ul.fnb {
+    display: none;
+  }
+  footer div.wrap {
+    
+  padding: 20px;
+  }
+  footer div.wrap ul.fnb2 li a {
+    color: #8b95a1;
+    font-size: 14px;
+  }
+  footer div.wrap address {
+    color: #8b95a1;
+    line-height: 1.4;
+  }
+} 
+/* 1200px */
+@media screen and (max-width:1200px){
+  main {
+  padding: 0 35px
+  }
+  header div.wrap {
+    padding: 0;
+  }
+  div#title {
+    width: calc(100% - 60px);
+  }
+  div#title div.wrap h2 {
+    padding: 0 20px;
+  }
+  div#title div.wrap p {
+    padding: 0 20px;
+  }
+  div#title div.wrap a {
+    margin: 0 20px;
+  }
+  
+/*  product  */
+  section#product div.wrap ul li a figure {
+    flex-direction: column;
+  }
+  section#product div.wrap ul li a figure figcaption p {
+    display: none;
+  }
+  section#product div.wrap ul li a figure figcaption h3 {
+    text-align: center;
+  }
+/*  service  */
+  section#service div a {
+    width: 200px;
+  }
+/* #promotion  */
+  section#promotion {
+    
+  background-size: 186%;
+  height: 252px;
+  }
+/*  tip  */
+  section#tip {
+    
+  }
+  section#tip div.wrap {
+    
+  }
+  section#tip div.wrap h4 {
+    
+  }
+  section#tip div.wrap ul a {
+  width: calc((1783px - 2px) / 5) !important;
+  }
+  section#tip div.wrap ul h3 {
+    
+  font-size: 18px;
+  }
+  section#tip div.wrap ul.no {
+    
+  }
+  section#tip div.wrap ul.no li a h3 {
+    font-size: 30px;
+  }
+  section#tip div.wrap ul.pdf {
+    
+  }
+  section#tip div.wrap ul.cap {
+    
+  }
+  section#tip div.wrap ul.zip {
+    
+  }
+  section#tip div.wrap ul.self {
+    
+  }
+}
